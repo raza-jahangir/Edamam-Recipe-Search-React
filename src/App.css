@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+
+body{
+
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+}
+
+.App {
+
+  min-height: 100vh;
+  background-color: #8EC5FC;
+
+}
+
+.search-form {
+
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar {
+
+  width: 50%;
+  border: none;
+  padding: 10px;
+}
+
+.search-button {
+
+  background: lightcoral;
+  border: none;
+  padding: 10px 20px;
+  color: whitesmoke;
+}
+
+.recipes-grid {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+  
+}
+
+.recipes-grid .single-recipe {
+
+  margin: 10px;
+  
+}
+
+.App h1 {
+  display: block;
+  color: whitesmoke;
+  font-family: 'Itim', cursive;
+  margin: 10px;
+
+}
+
+.show {
+
+  display: block;
+}
+
+.hide {
+
+  display: none;
+}
+
+a {
+
+    text-decoration: none;
+}
+
+.single-recipe {
+
+  min-width: 250px;
+  max-width: 800px;
+}

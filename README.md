@@ -1,2 +1,2 @@
-# Edamam-Recipe-Search-React
+# Edamam Recipe Search with ReactJS
 A small implementation of Edamam recipe search API with ReactJS
